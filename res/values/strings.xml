@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">SnapAContact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ocr">OCRActivity</string>
+	<string name="title_menu_name">Display Name</string>
+	<string name="title_menu_no_home">PhoneNo - Home</string>
+	<string name="title_menu_no_work">PhoneNo - Work</string>
+	<string name="title_menu_no_mobile">Mobile Number</string>
+	<string name="title_menu_email">Email</string>
+	<string name="title_menu_organization">Organization</string>
+	<string name="title_menu_jobTitle">Designation</string>
+	<string name="title_menu_save">Add Contact</string>
+	<string name="snap_image_desc">Sends the user to the next Activity</string>
+	<string name="help_image_desc">Gives the user details about the App</string>
+	<string name="activity_crop_save">Save</string>
+	<string name="activity_crop_discard">Discard</string>
+	<string name="activity_crop_rotateL">Rotate Left</string>
+	<string name="activity_crop_rotateR">Rotate Right</string>
+	<string name="activity_ocr_takePhoto">Take a Snap!</string>
+	<string name="activity_ocr_loadPhoto">Load an Image</string>
+	<string name="activity_ocr_saveDetail">Add Details</string>
+	<string name="activity_ocr_hint">Recognized Text will appear here</string>
+	<string name="help_step_1"> 1. Take a picture containing the details you wish to save as a contact!</string>
+	<string name="help_step_2"> 2. Only one contact detail from the picture can be saved at a time.</string>
+	<string name="help_step_3"> 3. Crop the region of the image containing the detail you wish to save.</string>
+	<string name="help_step_4"> 4. On saving the cropped image, the text will be recognized by the application.</string>
+	<string name="help_step_5"> 5. You may choose to edit the recognized text if required.</string>
+	<string name="help_step_6"> 6. Click on "Add Detail" and select the appropriate Menu.</string>
+	<string name="help_step_7"> 7. Click on "Load Image" and repeat steps 3 to 6 to add other details.</string>
+	<string name="help_step_8"> 8. After adding all the required details, click on "Add Detail --> Add Contact" to add a new Contact.</string>
+	<string name="nextButton">Next</string>
+	<string name="previousButton">Previous</string>
+	<string name="welcomeHelp">Welcome to the Help Section !</string>
+	<string name="continued">Continued..</string>
+	<string name="activity_main_title">This is the Title of the Main Activity</string>
+</resources>

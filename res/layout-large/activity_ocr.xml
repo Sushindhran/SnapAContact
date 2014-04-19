@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ocr" >
+
+    <ImageView
+        android:id="@+id/takePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="233dp"
+        android:src="@drawable/snap_animator" />
+
+    <ImageView
+        android:id="@+id/loadImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/takePhoto"
+        android:layout_alignBottom="@+id/takePhoto"
+        android:layout_marginRight="120dp"
+        android:src="@drawable/load_animator" />
+
+    <EditText
+        android:id="@+id/recognizedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="@string/activity_ocr_hint" >
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/saveDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recognizedText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/add_animator" />
+
+</RelativeLayout>

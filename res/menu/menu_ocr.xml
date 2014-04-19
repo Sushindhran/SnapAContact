@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/name" android:title="@string/title_menu_name" >
+    </item>
+    <item android:id="@+id/mobileNo" android:title="@string/title_menu_no_mobile" >
+    </item>
+    <item android:id="@+id/homeNo" android:title="@string/title_menu_no_home" >
+    </item>
+    <item android:id="@+id/workNo" android:title="@string/title_menu_no_work" >
+    </item>
+    <item android:id="@+id/email" android:title="@string/title_menu_email" >
+    </item>
+    <item android:id="@+id/organization" android:title="@string/title_menu_organization" >
+    </item>
+    <item android:id="@+id/title" android:title="@string/title_menu_jobTitle" >
+    </item>
+    <item android:id="@+id/save" android:title="@string/title_menu_save" >
+    </item>
+</menu>
